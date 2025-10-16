@@ -1,0 +1,18 @@
+package:
+  name: nbc
+  version: "1.2.1.r5"
+
+source:
+  path: .
+
+build:
+  number: 0
+
+test:
+  commands:
+    - nbc -help
+
+about:
+  home: "https://bricxcc.sourceforge.net/nbc/release/index.html"
+  license: "MPL"
+  summary: "nbc is a NXC language compiler by John Hansen"
